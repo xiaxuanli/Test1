@@ -25,11 +25,14 @@ a : 1
 
 
 # 打开文件获取
-print(yaml.load(open("Test.yml"), Loader=yaml.FullLoader))
+# print(yaml.load(open("Test.yml"), Loader=yaml.FullLoader))
+
 # 打开文件获取
 print(yaml.load(open("Test1.yml"), Loader=yaml.FullLoader))
-print(yaml.load(open("Test12.yml"), Loader=yaml.FullLoader))
-print(yaml.load(open("Test3.yml"), Loader=yaml.FullLoader))
+
+# print(yaml.load(open("Test12.yml"), Loader=yaml.FullLoader))
+
+# print(yaml.load(open("Test3.yml"), Loader=yaml.FullLoader))
 
 with open("Test4.yml","w") as f:
     yaml.dump(data={'a': [1, 2]},stream=f)
