@@ -8,7 +8,7 @@
   @time:2022/9/1 0:14
   @desc:
 '''
-from HuiHeZhi.game.Game import Game
+from testings.HuiHeZhi.game.Game import Game
 
 
 class HouYi(Game):

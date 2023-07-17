@@ -34,8 +34,8 @@ def test_steps_demo(test_data1):
         time.sleep(2)
 
     with allure.step("保存图片"):
-        driver.save_screenshot("D:\PythonWork\Test\photo\伏尼契手稿_Page_00111.jpg")
-        allure.attach.file("D:\PythonWork\Test\photo\伏尼契手稿_Page_00111.jpg",attachment_type=allure.attachment_type.JPG)
+        driver.save_screenshot("D:\PythonWork\Test1\photo1\伏尼契手稿_Page_00111.jpg")
+        allure.attach.file("D:\PythonWork\Test1\photo1\伏尼契手稿_Page_00111.jpg",attachment_type=allure.attachment_type.JPG)
 
     with allure.step("退出浏览器"):
         driver.quit()

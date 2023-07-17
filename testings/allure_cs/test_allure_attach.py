@@ -18,5 +18,5 @@ def test_attach_body():
     allure.attach("<body>这是一段HTMLbody块</body>",name="HTML代码块",attachment_type=allure.attachment_type.HTML)
 
 def test_attach_Picture():
-    allure.attach.file("D:\PythonWork\Test\photo\伏尼契手稿_Page_006.jpg",attachment_type=allure.attachment_type.JPG,name="伏尼契手稿图片")
+    allure.attach.file("D:\PythonWork\Test1\photo1\伏尼契手稿_Page_006.jpg",attachment_type=allure.attachment_type.JPG,name="伏尼契手稿图片")
 

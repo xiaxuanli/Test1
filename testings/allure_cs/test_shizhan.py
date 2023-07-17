@@ -25,5 +25,5 @@ def test_steps_demo(test_data1):
     driver.find_element_by_id('su').click()
     time.sleep(2)
 
-    driver.save_screenshot("D:\PythonWork\Test\photo\伏尼契手稿_Page_00111.jpg")
+    driver.save_screenshot("D:\PythonWork\Test1\photo1\伏尼契手稿_Page_00111.jpg")
     driver.quit()

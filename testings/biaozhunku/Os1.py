@@ -10,7 +10,7 @@
 '''
 import os
 # os.removedirs("Testdir")
-print(os.listdir("../"))
+print(os.listdir("../../"))
 if not os.path.exists("Testdir"):
     os.mkdir("Testdir")
 if not os.path.exists("Testdir/Test.txt"):
